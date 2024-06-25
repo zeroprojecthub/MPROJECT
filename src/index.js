@@ -20,9 +20,3 @@ connectDB()
     console.log("MONGO db connection failed !!! ", err);
 })
 
-
-
-app.listen(PORT,()=>{
-    console.log(`Listion gon port ${PORT}`);
-});
-
